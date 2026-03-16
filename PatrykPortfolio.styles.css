@@ -90,6 +90,78 @@
     color: var(--color-accent);
     text-decoration: none;
 }
+/* /Components/EducationSection.razor.rz.scp.css */
+.edu-list[b-onn1l8x9oa] {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.edu-item[b-onn1l8x9oa] {
+    padding: 1.5rem 1.5rem 1.5rem 1.75rem;
+    border-left: 4px solid var(--color-accent);
+    border-radius: 0 8px 8px 0;
+}
+
+.edu-header[b-onn1l8x9oa] {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.edu-icon[b-onn1l8x9oa] {
+    color: var(--color-accent);
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+}
+
+.edu-info[b-onn1l8x9oa] {
+    flex: 1;
+}
+
+.edu-degree[b-onn1l8x9oa] {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+    color: var(--color-text-primary);
+}
+
+.edu-school[b-onn1l8x9oa] {
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    margin: 0;
+}
+
+.edu-period[b-onn1l8x9oa] {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+    margin-top: 0.2rem;
+}
+
+.edu-description[b-onn1l8x9oa] {
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0 0 1rem;
+}
+
+.edu-tags[b-onn1l8x9oa] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.edu-tag[b-onn1l8x9oa] {
+    background-color: rgba(88, 166, 255, 0.1);
+    color: var(--color-accent);
+    border: 1px solid rgba(88, 166, 255, 0.2);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 500;
+}
 /* /Components/ExperienceSection.razor.rz.scp.css */
 .timeline[b-gj2w09mhwl] {
     position: relative;
@@ -429,6 +501,32 @@ main[b-e30ielp08y] {
     color: #0d1117;
 }
 
+/* ===== Language switcher ===== */
+.lang-switcher[b-l57qos2poj] {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    border-radius: 5px;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: border-color 0.2s ease, color 0.2s ease;
+    font-family: var(--font-primary);
+}
+
+.lang-switcher:hover[b-l57qos2poj] {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+}
+
+.nav-right-mobile[b-l57qos2poj] {
+    display: none;
+    align-items: center;
+    gap: 0.75rem;
+}
+
 /* ===== Hamburger button ===== */
 .nav-hamburger[b-l57qos2poj] {
     display: none;
@@ -511,6 +609,10 @@ main[b-e30ielp08y] {
     }
 
     .nav-hamburger[b-l57qos2poj] {
+        display: flex;
+    }
+
+    .nav-right-mobile[b-l57qos2poj] {
         display: flex;
     }
 }
