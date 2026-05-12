@@ -455,8 +455,30 @@
     background: #fff;
 }
 
-.pa-rem15[b-3lb23dwidr]{
+.pa-rem15[b-3lb23dwidr] {
     padding: 1.5rem;
+}
+
+.project-card--landscape .project-card-table[b-3lb23dwidr],
+.project-card--landscape .project-card-table tbody[b-3lb23dwidr],
+.project-card--landscape .project-card-table tr[b-3lb23dwidr] {
+    display: block;
+}
+
+.project-card--landscape .project-card-text-cell[b-3lb23dwidr],
+.project-card--landscape .project-card-slider-cell[b-3lb23dwidr] {
+    display: block;
+    width: 100%;
+    white-space: normal;
+}
+
+.project-card--landscape .project-card-text-cell[b-3lb23dwidr] {
+    padding-bottom: 0;
+}
+
+.screenshot-slider--landscape[b-3lb23dwidr] {
+    width: 100%;
+    aspect-ratio: 16 / 9;
 }
 /* /Components/ProjectsSection.razor.rz.scp.css */
 .project-card[b-8ol3jj4q11] {
